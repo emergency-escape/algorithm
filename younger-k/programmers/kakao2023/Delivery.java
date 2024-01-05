@@ -63,14 +63,13 @@ class Solution {
 
   /**
    * 먼 지점부터 몇 번을 이동해야되는지 카운팅하여 거리를 계산.
-   * 시간초과는 안나는데 틀리는 문제가 많음..
    */
   public long solution2(int cap, int n, int[] deliveries, int[] pickups) {
     long answer = 0;
     int deliver = 0;
     int pickup = 0;
 
-    for (int i = n - 1; i > 0; i--) {
+    for (int i = n - 1; i >= 0; i--) {
       if (deliveries[i] > 0 || pickups[i] > 0) {
         int count = 0;
 
