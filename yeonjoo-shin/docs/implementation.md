@@ -10,7 +10,7 @@ flatMap()메소드는 map() 메소드와 동일하게 매핑 메서드 역할을
 
 예시
 ``` java
-public class Main {
+public class Main2669 {
     static int maxIndex = 100;
     static int array[][] = new int[maxIndex][maxIndex]
 
